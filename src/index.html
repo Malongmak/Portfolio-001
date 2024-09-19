@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Portfolio Website</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gradient-to-b from-green-500 to-green-800 text-white">
+    <!-- Sticky container for navbar and profile image -->
+    <div class="sticky top-0 z-50">
+        <!-- Navigation menu -->
+        <nav class="bg-gray-700 py-2 fixed w-full top-0 left-0 z-50 h-20">
+            <div class="container flex justify-between items-center my-5">
+                <div class="text-xl font-bold ml-40">
+                    Joshua Malong's Portfolio
+                  </div>
+                <div class="flex space-x-4">
+                    <a class="text-white px-4 py-2 
+                              no-underline transition duration-300 
+                              bg-transparent hover:bg-gray-700"
+                        href="#about">About</a>
+                    <a class="text-white px-4 py-2 
+                              no-underline transition duration-300 
+                              bg-transparent hover:bg-gray-700"
+                        href="#projects">Projects</a>
+                    <a class="text-white px-4 py-2 
+                              no-underline transition duration-300 
+                              bg-transparent hover:bg-gray-700"
+                        href="#skills">Skills</a>
+                    <a class="text-white px-4 py-2 
+                              no-underline transition duration-300 
+                              bg-transparent hover:bg-gray-700"
+                        href="#contact">Contact</a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Profile image -->
+        <div class="relative">
+            <div class="w-36 h-36 rounded-full bg-blue-600 absolute top-0 
+                        left-1/2 transform -translate-x-1/2 z-50">
+                <img alt="imageofProfile" 
+                     class="w-36 h-36 rounded-full border-4 border-green-600"
+                     src=
+"./images/pro.jpg.jpg" />
+            </div>
+        </div> <!-- White circle for profile image -->
+    </div>
+
+    <!-- Main content -->
+    <div class="mb-16 container mx-auto pt-20">
+        <!-- About section -->
+        <section id="about"
+            class="m-20 justi-center text-center mt-20 
+                   my-5 mb-16 px-4 py-4 rounded-lg shadow-md relative 
+                   overflow-hidden bg-gradient-to-b from-gray-600 to-gray-800">
+            <h2 class="text-2xl font-bold mb-4 text-center">
+                  About Me
+              </h2>
+            <p class="text-base">
+                  Hi, I'm Joshua Malong, a passionate Low-level programmer,full-stack developer with a 
+                  focus on building scalable and responsive web applications. 
+                  I have extensive experience in front-end technologies 
+                  such as HTML, CSS, and JavaScript, along with expertise in 
+                  popular frameworks like React.js. On the back end, I specialize
+                in Node.js and Express.js for building robust server-side 
+                  applications. My goal is to leverage my skills and creativity 
+                  to deliver innovative solutions that meet and exceed 
+                  client expectations.
+              </p>
+            <a
+                class="inline-block mt-5 px-4 py-2 rounded-md bg-green-500 
+                       text-white hover:bg-blue-600 transition duration-300">
+                  Resume
+              </a>
+        </section>
+
+        <!-- Projects section -->
+        <section id="projects"
+            class="m-20 rounded bg-gradient-to-b from-gray-600 
+                   to-gray-800 text-white mb-8 px-4 py-10">
+            <h2 class="text-4xl font-bold mb-10 text-center">
+                  Projects
+              </h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+
+                <!-- Project  -->
+                <div
+                    class="bg-gray-800 p-4 shadow rounded overflow-hidden 
+                           transition-transform duration-300 transform 
+                           scale-100 hover:scale-110">
+                    <img src=
+"./images/E-com.jpg.png"
+                        alt="E.commerce" class="w-full h-auto">
+                    <h3 class="font-bold mt-4">E.commerce App</h3>
+                    <p class="text-sm leading-relaxed">
+                        E.commerce is a comprehensive e-commerce platform designed to provide a seamless shopping experience. Built with modern technologies and a user-centric approach, this app enables users to browse products, manage their cart, and complete purchases efficiently.
+                      </p>
+                </div>
+                <div
+                    class="bg-gray-800 p-4 shadow rounded overflow-hidden 
+                           transition-transform duration-300 transform 
+                           scale-100 hover:scale-110">
+                    <img src=
+"./images/budget-tracking.jpg.jpeg"
+                        alt="Budget Tracker" class="project-image">
+                    <h3 class="font-bold mt-4">Budget Tracking System</h3>
+                    <p class="text-sm leading-relaxed">
+                        The Budget Tracking System is a simple and intuitive application designed to help users manage and track their government and personal finances effectively. This system provides a user-friendly interface to record expenses, monitor income, and generate insightful reports, empowering individuals to make informed financial decisions.</p>
+                </div>
+                <div
+                    class="bg-gray-800 p-4 shadow rounded overflow-hidden 
+                           transition-transform duration-300 transform 
+                           scale-100 hover:scale-110">
+                    <img src=
+"./images/cal.jpg.jpg"
+                        alt="Mini-Calculator" class="project-image">
+                    <h3 class="font-bold mt-4">Mini-Calculator</h3>
+                    <p class="text-sm leading-relaxed">
+                        Welcome to the Calculator Web Application! This simple calculator is built using HTML, CSS, and JavaScript and provides basic arithmetic operations. It serves as a practical example of how to create a functional web-based calculator.</p>
+                </div>
+                <div
+                    class="bg-gray-800 p-4 shadow rounded overflow-hidden 
+                           transition-transform duration-300 transform 
+                           scale-100 hover:scale-110">
+                    <img src=
+"./images/low.jpg.jpg"
+                        alt="Low-Level Programming" class="project-image">
+                    <h3 class="font-bold mt-4">Low-Level Programming</h3>
+                    <p class="text-sm leading-relaxed">
+                        Welcome to the Hello World section of the Low-Level Programming repository! This module introduces fundamental programming concepts in C, laying the groundwork for more advanced topics. Whether you're a beginner or refreshing your skills, this guide will help you understand the basics and get started with C programming.</p>
+                </div>
+                <div
+                    class="bg-gray-800 p-4 shadow rounded overflow-hidden 
+                           transition-transform duration-300 transform 
+                           scale-100 hover:scale-110">
+                    <img src=
+"./images/pro1.jpg.jpg"
+                        alt="my first portfolio" class="project-image">
+                    <h3 class="font-bold mt-4">My first portfolio</h3>
+                    <p class="text-sm leading-relaxed">
+                        Welcome to my portfolio! I’m Joshua Malong Maker, a passionate software developer, data analyst, and humanitarian from Kakuma, Kenya. My mission is to leverage technology for positive social impact and personal empowerment.</p>
+                </div>
+                <div
+                    class="bg-gray-800 p-4 shadow rounded overflow-hidden 
+                           transition-transform duration-300 transform 
+                           scale-100 hover:scale-110">
+                    <img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20240327093718/img.jpg"
+                        alt="Travel Website" class="project-image">
+                    <h3 class="font-bold mt-4">Travel Website</h3>
+                    <p class="text-sm leading-relaxed">
+                          A travel booking website that allows users to search for
+                        destinations, book flights, hotels, and plan their itinerary.</p>
+                </div>
+                <div
+                    class="bg-gray-800 p-4 shadow rounded overflow-hidden 
+                           transition-transform duration-300 transform 
+                           scale-100 hover:scale-110">
+                    <img src=
+"./images/background_image.jpg.jpeg"
+                        alt="Temperature-convertor-App" class="project-image">
+                    <h3 class="font-bold mt-4">Temperature-convertor-App</h3>
+                    <p class="text-sm leading-relaxed">
+                        A simple Flutter application for converting temperatures between Fahrenheit and Celsius, with user authentication.</p>
+                </div>
+                <div
+                    class="bg-gray-800 p-4 shadow rounded overflow-hidden 
+                           transition-transform duration-300 transform 
+                           scale-100 hover:scale-110">
+                    <img src=
+"./images/about-img.jpg.png"
+                        alt="BootCamp" class="project-image">
+                    <h3 class="font-bold mt-4">BootCamp</h3>
+                    <p class="text-sm leading-relaxed">
+                        MakerEyeTech Welcome to MakerEyeTech! We are a pioneering technology company dedicated to fostering innovation, pushing boundaries, and delivering cutting-edge solutions that redefine industries. This README serves as your comprehensive guide to understanding our company, our projects, and how to engage with our offerings.</p>
+                </div>
+                <div
+                    class="bg-gray-800 p-4 shadow rounded overflow-hidden 
+                           transition-transform duration-300 transform 
+                           scale-100 hover:scale-110">
+                    <img src=
+"./images/Anyop.jpg.jpg"
+                        alt="Anyop" class="project-image">
+                    <h3 class="font-bold mt-4">Anyop</h3>
+                    <p class="text-sm leading-relaxed">
+                        The Anyoop Wildlife System's Monitor App is a groundbreaking solution meticulously crafted to address the intricate challenges of wildlife conservation in South Sudan. Developed with innovation at its core, this mobile and web application serves as a comprehensive tool, integrating cutting-edge technology, citizen engagement, and artificial intelligence to revolutionize the landscape of wildlife preservation.This is a simple mobile app for the purpose of monitoring the wild life and controlling the habitat, prevent human-wild conflict and inexcessive poaching. This application is developed using React and Node.js.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills section -->
+        <section id="skills"
+            class="m-20 p-10 shadow-md relative 
+                   overflow-hidden rounded bg-gradient-to-b 
+                   from-gray-600 to-gray-800 text-white mb-8 px-4 py-10">
+            <h2 class="text-2xl font-bold mb-4">Skills</h2>
+            <!-- Skill progress bars -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                    <p class="font-bold">Python</p>
+                    <div class="bg-gray-600 h-4 w-full rounded-full">
+                        <div class="bg-green-400 h-full rounded-full w-4/5"></div>
+                    </div>
+                    <p class="font-bold">C</p>
+                    <div class="bg-gray-600 h-4 w-full rounded-full">
+                        <div class="bg-green-400 h-full rounded-full w-4/5">
+                        </div>
+                    </div>
+                    
+                    <p class="font-bold">HTML</p>
+                    <div class="bg-gray-600 h-4 w-full rounded-full">
+                        <div class="bg-green-400 h-full rounded-full w-4/5"></div>
+                    </div>
+                </div>
+                <div>
+                    <p class="font-bold">CSS</p>
+                    <div class="bg-gray-600 h-4 w-full rounded-full">
+                        <div class="bg-green-400 h-full rounded-full w-4/5"></div>
+                    </div>
+                    <p class="font-bold">C++</p>
+                    <div class="bg-gray-600 h-4 w-full rounded-full">
+                        <div class="bg-green-400 h-full rounded-full w-4/5"></div>
+                </div>
+                <p class="font-bold">Flutter</p>
+                    <div class="bg-gray-600 h-4 w-full rounded-full">
+                        <div class="bg-green-400 h-full rounded-full w-4/5"></div>
+                <div>
+                    <p class="font-bold">JavaScript</p>
+                    <div class="bg-gray-600 h-4 w-full rounded-full">
+                        <div class="bg-green-400 h-full rounded-full w-4/5"></div>
+                    </div>
+                    <p class="font-bold">tailwindcss</p>
+                    <div class="bg-gray-600 h-4 w-full rounded-full">
+                        <div class="bg-green-400 h-full rounded-full w-4/5"></div>
+                </div>
+                <div>
+                    <p class="font-bold">React.js</p>
+                    <div class="bg-gray-600 h-4 w-full rounded-full">
+                        <div class="bg-green-400 h-full rounded-full w-4/5">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <p class="font-bold">Node.js</p>
+                    <div class="bg-gray-600 h-4 w-full rounded-full">
+                        <div class="bg-green-400 h-full rounded-full w-3/5"></div>
+                    </div>
+                </div>
+                <div>
+                    <p class="font-bold">Express.js</p>
+                    <div class="bg-gray-600 h-4 w-full rounded-full">
+                        <div class="bg-green-400 h-full rounded-full" 
+                             style="width: 65%;"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact section -->
+        <section id="contact"
+            class="m-20 p-10 rounded-lg shadow-md text-white relative 
+                   overflow-hidden mb-16 bg-gradient-to-b 
+                   from-gray-600 to-gray-800 flex">
+            <div class="w-1/2">
+                <h2 class="mb-20 text-2xl leading-6 font-bold">
+                      Contact Me
+                  </h2>
+                <!-- Contact details -->
+                <p>Email: j.malong@alustudent.com</j></p>
+                <p>Phone: +254715767367</p>
+                <!-- Hire Me button -->
+                <a href="#"
+                    class="inline-block px-4 my-5 py-2 rounded-md bg-green-500 
+                           text-white hover:bg-blue-600 transition duration-300">
+                      Hire Me</a>
+                <!-- Social media links -->
+                <div class="flex items-center space-x-4 mt-5">
+                    <!-- LinkedIn -->
+                    <a href="https://www.linkedin.com/in/joshua-malong-89ab75260/"
+                        class="inline-block px-4 py-2 rounded-md bg-green-500 
+                               text-white hover:bg-blue-600 transition duration-300">
+                      LinkedIn</a>
+                    <!-- GitHub -->
+                    <a href="https://github.com/MalongMak"
+                        class="inline-block px-4 py-2 rounded-md bg-green-500 
+                               text-white hover:bg-blue-600 transition duration-300">
+                      GitHub</a>
+                    <!-- Twitter -->
+                    <a href="https://x.com/JoshuaMalo41239"
+                        class="inline-block px-4 py-2 rounded-md bg-green-500 
+                               text-white hover:bg-blue-600 transition duration-300">
+                      Twitter</a>
+                </div>
+            </div>
+            <div class="w-1/2">
+                <!-- Image section -->
+                <img 
+                    src=
+"./images/pro1.jpg.jpg" 
+                    alt="Your Image"
+                    class="w-72 h-72 mx-auto">
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
